@@ -1,0 +1,12 @@
+file_format: "1"
+id: egg58bt
+name: egg58bt
+type: shield
+url: https://github.com/tmick0/egg58
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - egg58bt_left
+  - egg58bt_right

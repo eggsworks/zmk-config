@@ -1,0 +1,5 @@
+config SHIELD_EGG58BT_LEFT
+    def_bool $(shields_list_contains,egg58bt_left)
+
+config SHIELD_EGG58BT_RIGHT
+    def_bool $(shields_list_contains,egg58bt_right)
