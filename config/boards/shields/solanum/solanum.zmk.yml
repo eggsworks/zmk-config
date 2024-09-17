@@ -1,0 +1,12 @@
+file_format: "1"
+id: solanum
+name: solanum
+type: shield
+url: https://github.com/eggsworks/solanum
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - solanum_left
+  - solanum_right

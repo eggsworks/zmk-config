@@ -1,0 +1,53 @@
+/*
+ * Copyright (c) 2024 Travis Mick
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                      &kp Q          &kp W        &kp E         &kp R         &kp T                       &kp Y        &kp U         &kp I         &kp O          &kp P   
+            &kp LBKT  &mt LSHFT A    &mt LCTRL S  &mt LCMD D    &mt LALT F    &kp G                       &kp H        &mt LALT J    &mt LCMD K    &mt LCTRL L    &mt LSHFT SEMI &kp BSPC
+                      &mt LCTRL Z    &mt LCMD X   &mt LALT C    &kp V         &kp B                       &kp N        &kp M         &kp COMMA     &kp DOT        &kp FSLH
+                                                                              &lt 1 SPACE                 &lt 2 ENTER
+            >;
+        };
+
+        sym_layer {
+            bindings = <
+                      &kp 1          &kp 2        &kp 3         &kp 4         &kp 5                       &kp 6        &kp 7         &kp 8         &kp 9          &kp 0   
+            &kp RBKT  &mt LSHFT EXCL &mt LCTRL AT &mt LCMD HASH &mt LALT DLLR &kp PRCNT                   &kp CARET    &mt LALT AMPS &mt LCMD STAR &mt LCTRL LPAR &mt LSHFT RPAR &kp DEL
+                      &kp F1         &kp F2       &kp F3        &kp F4        &kp F5                      &kp GRAVE    &kp APOS      &kp MINUS     &kp PLUS       &kp BSLH
+                                                                              &trans                      &mo 3
+            >;
+        };
+
+        nav_layer {
+            bindings = <
+                      &none          &kp PG_UP    &kp UP        &kp PG_DN     &kp C_VOL_UP                &none        &none         &kp INS       &none          &kp PSCRN
+            &kp RBKT  &none          &kp LEFT     &kp DOWN      &kp RIGHT     &kp C_VOL_DN                &none        &kp LALT      &kp LCMD      &kp LCTRL      &kp LSHFT      &kp DEL
+                      &none          &kp HOME     &kp ESC       &kp END       &kp C_MUTE                  &none        &none         &none         &none          &none
+                                                                              &lt 3 TAB                   &trans
+            >;
+        };
+
+        fn_layer {
+            bindings = <
+                      &kp F1         &kp F2       &kp F3        &kp F4        &kp F5                      &kp F6       &kp F7        &kp F8        &kp F9         &kp F10
+            &none     &kp F11        &kp F12      &none         &none         &sys_reset                  &sys_reset   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 1   &none          &bt BT_CLR
+                      &none          &none        &none         &none         &bootloader                 &bootloader  &none         &none         &none          &out OUT_TOG
+                                                                              &trans                      &trans
+            >;
+        };
+
+    };
+};

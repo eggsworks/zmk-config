@@ -1,0 +1,16 @@
+if SHIELD_SOLANUM_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Solanum"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SOLANUM_LEFT || SHIELD_SOLANUM_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
