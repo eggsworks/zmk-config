@@ -1,0 +1,11 @@
+file_format: "1"
+id: le_oeuf
+name: le_oeuf
+type: shield
+url: https://github.com/eggsworks/le-oeuf
+requires:
+  - seeeduino_xiao_rp2040
+features:
+  - keys
+siblings:
+  - le_oeuf
