@@ -4,7 +4,8 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
+
+#include "le_oeuf-layouts.dtsi"
 
 &physical_layout0 {
     kscan = <&kscan0>;
