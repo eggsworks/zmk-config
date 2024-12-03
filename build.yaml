@@ -15,6 +15,10 @@
 include:
   - board: seeeduino_xiao_rp2040
     shield: le_oeuf
+    snippet: studio-rpc-usb-uart
+  - board: seeeduino_xiao_ble
+    shield: le_oeuf
+    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: solanum_left
   - board: nice_nano_v2
