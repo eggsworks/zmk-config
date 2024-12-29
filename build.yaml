@@ -14,6 +14,8 @@
 ---
 include:
   - board: seeeduino_xiao_rp2040
+    shield: le_colibri
+  - board: seeeduino_xiao_rp2040
     shield: le_oeuf
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble

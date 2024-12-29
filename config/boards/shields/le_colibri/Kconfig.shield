@@ -1,0 +1,3 @@
+config SHIELD_LE_COLIBRI
+    def_bool $(shields_list_contains,le_colibri)
+

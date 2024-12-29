@@ -1,0 +1,11 @@
+file_format: "1"
+id: le_colibri
+name: le_colibri
+type: shield
+url: https://github.com/eggsworks/le-colibri
+requires:
+  - seeeduino_xiao_rp2040
+features:
+  - keys
+siblings:
+  - le_colibri
