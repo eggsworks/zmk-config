@@ -1,0 +1,13 @@
+file_format: "1"
+id: le_oeuf
+name: "L'oeuf"
+type: board
+arch: arm
+features:
+  - keys
+  - encoder
+outputs:
+  - usb
+  - ble
+url: https://eggs.works
+revision: "0"

@@ -1,0 +1,3 @@
+config BOARD_LE_OEUF
+    bool "le oeuf"
+    depends on SOC_NRF52840_QIAA

@@ -1,0 +1,17 @@
+if BOARD_LE_OEUF
+
+config ZMK_KEYBOARD_NAME
+    default "L'oeuf"
+
+if USB_DEVICE_STACK
+    config USB_NRFX
+        default y
+endif
+
+config BT_CTLR
+    default BT
+
+config ZMK_SLEEP
+    default y
+
+endif
