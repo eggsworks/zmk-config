@@ -29,3 +29,4 @@ include:
     shield: egg58bt_left
   - board: nice_nano_v2
     shield: egg58bt_right
+  - board: le_oeuf
