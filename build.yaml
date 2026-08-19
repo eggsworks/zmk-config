@@ -23,8 +23,10 @@ include:
     snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
     shield: solanum_left
+    snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
     shield: solanum_right
+    snippet: studio-rpc-usb-uart
   - board: nice_nano//zmk
     shield: egg58bt_left
   - board: nice_nano//zmk

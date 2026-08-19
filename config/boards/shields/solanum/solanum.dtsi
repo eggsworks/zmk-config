@@ -4,12 +4,13 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "solanum-layouts.dtsi"
 
 / {
 
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		zmk,physical_layout = &physical_layout0;
 	};
 
 	default_transform: keymap_transform_0 {
