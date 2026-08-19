@@ -1,0 +1,5 @@
+board:
+  name: le_oeuf
+  vendor: eggsworks
+  socs:
+    - name: nrf52840
